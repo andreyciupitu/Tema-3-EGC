@@ -46,6 +46,10 @@
     <ClCompile Include="..\Source\Laboratoare\Laborator7\Laborator7.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator8\Laborator8.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator9\Laborator9.cpp" />
+    <ClCompile Include="..\Source\LightingDemo\GameWorld.cpp" />
+    <ClCompile Include="..\Source\LightingDemo\Geometry3D.cpp" />
+    <ClCompile Include="..\Source\LightingDemo\SpatialObject.cpp" />
+    <ClCompile Include="..\Source\LightingDemo\SphereLight.cpp" />
     <ClCompile Include="..\Source\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -84,8 +88,21 @@
     <ClInclude Include="..\Source\Laboratoare\Laborator7\Laborator7.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator8\Laborator8.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator9\Laborator9.h" />
+    <ClInclude Include="..\Source\LightingDemo\Camera.h" />
+    <ClInclude Include="..\Source\LightingDemo\GameWorld.h" />
+    <ClInclude Include="..\Source\LightingDemo\Geometry3D.h" />
+    <ClInclude Include="..\Source\LightingDemo\MovementBehavior.h" />
+    <ClInclude Include="..\Source\LightingDemo\RenderableObject.h" />
+    <ClInclude Include="..\Source\LightingDemo\Skybox.h" />
+    <ClInclude Include="..\Source\LightingDemo\SpatialObject.h" />
+    <ClInclude Include="..\Source\LightingDemo\SphereLight.h" />
+    <ClInclude Include="..\Source\LightingDemo\Terrain.h" />
+    <ClInclude Include="..\Source\LightingDemo\Transform.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Resources\LightingDemo\Shaders\CelShading.FS.glsl" />
+    <None Include="..\Resources\LightingDemo\Shaders\CelShading.VS.glsl" />
+    <None Include="..\Resources\LightingDemo\Shaders\Outline.VS.glsl" />
     <None Include="..\Source\Laboratoare\Laborator6\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\Laborator6\Shaders\VertexShader.glsl" />
     <None Include="..\Source\Laboratoare\Laborator7\Shaders\FragmentShader.glsl" />

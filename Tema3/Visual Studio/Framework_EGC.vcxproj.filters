@@ -61,6 +61,9 @@
     <Filter Include="Laboratoare\Laborator9\Shaders">
       <UniqueIdentifier>{a7995ec9-7a24-4990-8d42-92088d9a6dfb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LightingDemo">
+      <UniqueIdentifier>{77f84b4d-2b42-4f79-9cdd-a94639d25bc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -144,6 +147,18 @@
     </ClCompile>
     <ClCompile Include="..\Source\Core\Managers\MeshManager.cpp">
       <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LightingDemo\GameWorld.cpp">
+      <Filter>LightingDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LightingDemo\Geometry3D.cpp">
+      <Filter>LightingDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LightingDemo\SpatialObject.cpp">
+      <Filter>LightingDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LightingDemo\SphereLight.cpp">
+      <Filter>LightingDemo</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -252,6 +267,36 @@
     <ClInclude Include="..\Source\Laboratoare\Laborator4\Transform3D.h">
       <Filter>Laboratoare\Laborator4</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\Camera.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\GameWorld.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\Geometry3D.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\RenderableObject.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\Skybox.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\SpatialObject.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\Terrain.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\Transform.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\MovementBehavior.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LightingDemo\SphereLight.h">
+      <Filter>LightingDemo</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator6\Shaders\FragmentShader.glsl">
@@ -277,6 +322,15 @@
     </None>
     <None Include="..\Source\Laboratoare\Laborator9\Shaders\VertexShader.glsl">
       <Filter>Laboratoare\Laborator9\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\LightingDemo\Shaders\CelShading.FS.glsl">
+      <Filter>LightingDemo</Filter>
+    </None>
+    <None Include="..\Resources\LightingDemo\Shaders\CelShading.VS.glsl">
+      <Filter>LightingDemo</Filter>
+    </None>
+    <None Include="..\Resources\LightingDemo\Shaders\Outline.VS.glsl">
+      <Filter>LightingDemo</Filter>
     </None>
   </ItemGroup>
 </Project>
